@@ -12,7 +12,7 @@ import './index.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Suspense fallback={<Loader />}>
-      <BrowserRouter basename="drinkmaster-teamproject">
+      <BrowserRouter basename="drinkmaster-my-api">
         <Provider store={store}>
           <PersistGate persistor={persistor}>
             <App />
